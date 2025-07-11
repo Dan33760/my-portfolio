@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-blue-300 h-auto lg:h-screen w-full flex items-center justify-center font-monda text-white-100">
-    <main class="relative flex w-full lg:w-[95%] lg:h-[95%] border border-amber-50 ">
+    <main class="relative flex w-full lg:w-[95%] lg:h-[95%]">
         {{-- Menu Large Screen --}}
         @include('partials.menu-large-screen')
         
@@ -19,7 +19,7 @@
 
         @yield('content')
 
-        <img src="{{ asset('images/eclipse-1.svg') }}" class="absolute left-1 lg:left-[10%] -top-[3%] z-10"
+        <img src="{{ asset('images/eclipse-1.svg') }}" class="absolute w-[97%] lg:w-auto left-1 lg:left-[10%] -top-[3%] z-0"
             alt="eclipse 1">
     </main>
 </body>

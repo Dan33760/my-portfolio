@@ -1,4 +1,4 @@
-<aside class="relative hidden lg:block w-[25%] z-50 my-5">
+<aside class="relative hidden lg:block w-[20%] z-50 my-5">
     <div
         class="flex flex-col justify-between px-8 py-5 w-full h-full bg-blue-200/40 backdrop-blur-[0.5px] rounded-[22px] ">
         <div class="text-5xl font-extrabold">D.</div>
@@ -80,14 +80,14 @@
         </div>
         <div>
             <a href="#"
-                class="flex justify-center gap-5 items-center text-gray-100 border-2 w-full h-[52px] rounded-[11px] border-blue-100">
+                class="flex justify-center gap-1 items-center text-gray-100 border-2 w-full h-[52px] rounded-[11px] border-blue-100">
                 <svg width="32" height="31" viewBox="0 0 32 31" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M4 21.3125V24.2187C4 24.9895 4.31607 25.7288 4.87868 26.2738C5.44129 26.8188 6.20435 27.125 7 27.125H25C25.7957 27.125 26.5587 26.8188 27.1213 26.2738C27.6839 25.7288 28 24.9895 28 24.2187V21.3125M22 15.5L16 21.3125M16 21.3125L10 15.5M16 21.3125V3.875"
                         stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                Télécharger CV
+                <span><span class="lg:hidden xl:inline">Télécharger</span> CV</span>
             </a>
         </div>
     </div>

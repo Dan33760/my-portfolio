@@ -1,6 +1,6 @@
 <aside class="fixed left-[2.5%] right-[2.5%] bottom-1 flex lg:hidden w-[95%] h-16 z-50 my-5 text-gray-100">
     <div
-        class="flex justify-between px-5 py-5 text-[10px] w-full h-full bg-blue-200/40 backdrop-blur-[0.5px] rounded-[22px] ">
+        class="flex justify-between px-5 py-5 text-[10px] w-full h-full bg-blue-200/90 backdrop-blur-[0.5px] rounded-[22px] ">
         <a href="#" class="a-menu">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
