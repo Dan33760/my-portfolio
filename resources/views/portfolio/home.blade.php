@@ -4,7 +4,7 @@
     
 @section('content')
     
-    <div class="relative flex-grow h-full z-40">
+    <div class="relative w-full lg:w-[80%] h-full mb-14 lg:mb-0 z-40">
         <div class="relative w-[95%] left-[2.5%] h-full flex flex-col lg:flex-row gap-3 justify-center items-center pt-8 lg:pt-0 z-40">
             <div class="w-full lg:w-[481px]">
                 <div class="flex flex-col gap-5">
@@ -13,7 +13,7 @@
                     <span class="text-2xl text-gray-100">Développeur Web <span class="text-green-100">Fullstack</span></span>
 
                     <p class="text-lg font-extralight">
-                        Je développe avec intention. <br>
+                        {{-- Je développe avec intention. <br> --}}
                         Mon travail vise à concevoir des solutions numériques utiles, solides et durables — transformer des idées en réalités concrètes, et révéler le potentiel des talents et des communautés à travers la technologie.
                     </p>
 

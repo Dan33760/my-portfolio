@@ -8,3 +8,4 @@ Route::get('/page', function () {
 });
 
 Route::get('/', [PortfolioController::class, 'home']);
+Route::get('/services', [PortfolioController::class, 'services']);

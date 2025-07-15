@@ -10,4 +10,9 @@ class PortfolioController extends Controller
     {
         return view('portfolio.home');
     }
+
+    public function services()
+    {
+        return view('portfolio.services');
+    }
 }
