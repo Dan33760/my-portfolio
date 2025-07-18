@@ -5,3 +5,17 @@
 .a-menu{
     @apply w-auto flex flex-col justify-center items-center;
 }
+
+.bg-about{
+    background-image: url(../images/bg-about.webp);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.filter-graycale-1{
+    filter: grayscale(100%);
+}
+
+.filter-graycale-1:hover{
+    filter: none;
+}

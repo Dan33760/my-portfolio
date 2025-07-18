@@ -10,5 +10,6 @@ Route::get('/page', function () {
 // Route::get('/', [PortfolioController::class, 'home']);
 // Route::get('/services', [PortfolioController::class, 'services']);
 
-Route::view('/', 'portfolio.home');
-Route::view('/services', 'portfolio.services');
+Route::view('/', 'portfolio.home')->name('home');
+Route::view('/services', 'portfolio.services')->name('services');
+Route::view('/about', 'portfolio.about')->name('about');
