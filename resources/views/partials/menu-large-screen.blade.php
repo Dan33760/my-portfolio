@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="#" class="a-menu a-hover {{ request()->routeIs('projects') ? 'a-active' : '' }}">
+                    <a href="/projects" class="a-menu a-hover {{ request()->routeIs('projects') ? 'a-active' : '' }}">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">

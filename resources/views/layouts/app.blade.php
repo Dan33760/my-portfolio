@@ -8,6 +8,8 @@
     <title>Kodeage - @yield('title')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @stack('styles')
+    @livewireStyles
 </head>
 
 <body class="bg-blue-300 h-auto lg:h-screen w-full flex items-center justify-center font-monda text-white-100">
@@ -23,6 +25,10 @@
         <img src="{{ asset('images/eclipse-1.svg') }}" class="absolute w-[97%] lg:w-auto left-1 lg:left-[10%] -top-[3%] z-0"
             alt="eclipse 1">
     </main>
+
+    @stack('scripts')
+    @livewireScripts
+
 </body>
 
 </html>

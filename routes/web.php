@@ -14,3 +14,4 @@ Route::view('/', 'portfolio.home')->name('home');
 Route::view('/services', 'portfolio.services')->name('services');
 Route::view('/about', 'portfolio.about')->name('about');
 Route::view('/skills', 'portfolio.skills')->name('skills');
+Route::view('/projects', 'portfolio.projects')->name('projects');
