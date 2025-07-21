@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="relative w-full lg:w-[80%] h-full mb-14 lg:mb-0 z-40">
-        <div class="relative bg-about w-[95%] left-[2.5%] h-full flex flex-col gap-6 justify-center items-center pt-8 lg:pt-0 z-40">
+        <div class="relative w-[95%] left-[2.5%] h-full flex flex-col gap-6 justify-center items-center pt-8 lg:pt-0 z-40">
             <div
                 class="w-[80%] rounded-2xl bg-blue-200/40 backdrop-blur-[0.5px] flex flex-col lg:flex-row gap-3 items-center py-7 px-5 text-center lg:text-left">
                 <div class="flex-grow text-gray-100">
@@ -54,5 +54,5 @@
             </div>
         </div>
     </div>
-    
+
 @endsection

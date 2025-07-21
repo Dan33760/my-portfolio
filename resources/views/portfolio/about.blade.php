@@ -6,7 +6,7 @@
 
     <div class="relative w-full lg:w-[80%] h-full mb-14 lg:mb-0 z-40">
         <div
-            class="relative w-[95%] bg-about left-[2.5%] h-full flex flex-col gap-6 justify-center items-center pt-8 lg:pt-0 z-40">
+            class="relative w-[95%] left-[2.5%] h-full flex flex-col gap-6 justify-center items-center pt-8 lg:pt-0 z-40">
             <div class="w-full lg:w-[80%]">
                 <div class="mb-5">
                     <p class="font-semibold text-lg text-gray-100 mb-3">Je développe avec intention.Mon travail vise à
