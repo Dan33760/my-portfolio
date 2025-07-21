@@ -4,8 +4,8 @@
         <div class="text-5xl font-extrabold">D.</div>
         <div class="text-center">
             <ul class="flex flex-col gap-7 text-sm text-gray-100">
-                <li class="li-menu">
-                    <a href="/" class="a-menu">
+                <li class="">
+                    <a href="/" class="a-menu a-hover {{ request()->routeIs('home') ? 'a-active' : '' }}">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-6">
@@ -16,8 +16,8 @@
                         <p>Acceuil</p>
                     </a>
                 </li>
-                <li class="hover:text-green-100">
-                    <a href="/services" class="a-menu">
+                <li class="">
+                    <a href="/services" class="a-menu a-hover {{ request()->routeIs('services') ? 'a-active' : '' }}">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -28,8 +28,8 @@
                         <p>Services</p>
                     </a>
                 </li>
-                <li class="hover:text-green-100">
-                    <a href="/about" class="a-menu">
+                <li class="">
+                    <a href="/about" class="a-menu a-hover {{ request()->routeIs('about') ? 'a-active' : '' }}">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -40,8 +40,8 @@
                         <p>A propos</p>
                     </a>
                 </li>
-                <li class="hover:text-green-100">
-                    <a href="/skills" class="a-menu">
+                <li class="">
+                    <a href="/skills" class="a-menu a-hover {{ request()->routeIs('skills') ? 'a-active' : '' }}">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -52,8 +52,8 @@
                         <p>Competences</p>
                     </a>
                 </li>
-                <li class="hover:text-green-100">
-                    <a href="#" class="a-menu">
+                <li class="">
+                    <a href="#" class="a-menu a-hover {{ request()->routeIs('projects') ? 'a-active' : '' }}">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -64,8 +64,8 @@
                         <p>Projets</p>
                     </a>
                 </li>
-                <li class="hover:text-green-100">
-                    <a href="#" class="a-menu">
+                <li class="">
+                    <a href="#" class="a-menu a-hover {{ request()->routeIs('contact') ? 'a-active' : '' }}">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">

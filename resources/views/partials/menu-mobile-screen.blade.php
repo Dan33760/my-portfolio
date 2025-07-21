@@ -1,7 +1,7 @@
 <aside class="fixed left-[2.5%] right-[2.5%] bottom-1 flex lg:hidden w-[95%] h-16 z-50 my-5 text-gray-100">
     <div
         class="flex justify-between px-5 py-5 text-[10px] w-full h-full bg-blue-200/90 backdrop-blur-[0.5px] rounded-[22px] ">
-        <a href="/" class="a-menu">
+        <a href="/" class="a-menu a-hover {{ request()->routeIs('home') ? 'a-active' : '' }}">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6">
@@ -11,7 +11,7 @@
             </div>
             <p>Acceuil</p>
         </a>
-        <a href="/services" class="a-menu">
+        <a href="/services" class="a-menu a-hover {{ request()->routeIs('services') ? 'a-active' : '' }}">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6">
@@ -21,7 +21,7 @@
             </div>
             <p>Services</p>
         </a>
-        <a href="/about" class="a-menu">
+        <a href="/about" class="a-menu a-hover {{ request()->routeIs('about') ? 'a-active' : '' }}">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6">
@@ -31,7 +31,7 @@
             </div>
             <p>A propos</p>
         </a>
-        <a href="/skills" class="a-menu">
+        <a href="/skills" class="a-menu a-hover {{ request()->routeIs('skills') ? 'a-active' : '' }}">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6">
@@ -41,7 +41,7 @@
             </div>
             <p>Competences</p>
         </a>
-        <a href="#" class="a-menu">
+        <a href="#" class="a-menu a-hover {{ request()->routeIs('project') ? 'a-active' : '' }}">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6">
@@ -51,7 +51,7 @@
             </div>
             <p>Projets</p>
         </a>
-        <a href="#" class="a-menu">
+        <a href="#" class="a-menu a-hover {{ request()->routeIs('contact') ? 'a-active' : '' }}">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6">

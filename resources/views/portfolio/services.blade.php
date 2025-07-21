@@ -52,12 +52,7 @@
                         Mentorat et transfert de compétences aux équipes ou porteurs de projet.</p>
                 </div>
             </div>
-
-
         </div>
-
-        {{-- Image Background --}}
-        <img src="{{ asset('images/bg-img-2.webp') }}" class="absolute w-[90%] lg:w-auto left-3 lg:left-[30%] bottom-0 z-10"
-            alt="eclipse 1">
     </div>
+    
 @endsection

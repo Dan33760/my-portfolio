@@ -1,3 +1,7 @@
+.turbo-progress-bar {
+    background-color: yellowgreen;
+}
+
 .li-menu{
     @apply hover:text-green-100 hover:bg-blue-300 rounded-lg py-1;
 }
@@ -6,8 +10,16 @@
     @apply w-auto flex flex-col justify-center items-center;
 }
 
+.a-hover:hover{
+    @apply text-green-100;
+}
+
+.a-active{
+    @apply text-green-100;
+}
+
 .bg-about{
-    background-image: url(../images/bg-about.webp);
+    background-image: url(../../public/images/bg-about.webp);
     background-repeat: repeat;
     background-position: center;
 }
